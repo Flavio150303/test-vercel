@@ -1,3 +1,80 @@
 {
-  "pages": {}
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/chunks/app/_not-found/page-544b5679db404e25.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/css/53324fefbfa69541.css",
+      "static/chunks/app/layout-1819a0fd22aaea52.js"
+    ],
+    "/screens/contactenos/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/chunks/app/screens/contactenos/page-6281ddc6f1ed1cf2.js"
+    ],
+    "/screens/detalle/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/chunks/291-103fbfd17cca80c7.js",
+      "static/chunks/app/screens/detalle/page-ae2ed56bd6bd0c19.js"
+    ],
+    "/screens/productojardineria/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/chunks/291-103fbfd17cca80c7.js",
+      "static/chunks/app/screens/productojardineria/page-d04332493c25118e.js"
+    ],
+    "/screens/productolimpieza/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/chunks/291-103fbfd17cca80c7.js",
+      "static/chunks/app/screens/productolimpieza/page-77db97518d052652.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/chunks/291-103fbfd17cca80c7.js",
+      "static/chunks/app/page-f78c531c4b0bfae5.js"
+    ],
+    "/screens/productos/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/chunks/291-103fbfd17cca80c7.js",
+      "static/chunks/app/screens/productos/page-6259f4f7a4f83506.js"
+    ],
+    "/screens/nosotros/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/chunks/app/screens/nosotros/page-373bc0f1989203a3.js"
+    ],
+    "/screens/servicios/page": [
+      "static/chunks/webpack-260e91142a315212.js",
+      "static/chunks/fd9d1056-81f448b567f73d85.js",
+      "static/chunks/23-09da928c0b795147.js",
+      "static/chunks/main-app-a115c9b1d32b880e.js",
+      "static/chunks/app/screens/servicios/page-d94d57d36ecc2130.js"
+    ]
+  }
 }

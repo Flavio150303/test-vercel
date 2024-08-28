@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,9 +18,11 @@ export default function RootLayout({ children }) {
         <main className="flex min-h-screen flex-col justify-center items-center  font-poppins">
           <div>
             <Header />
-            <section className="flex flex-col  items-center ">
-              {children}
-            </section>
+            <Suspense fallback={<div>Cargando...</div>}>
+              <section className="flex flex-col  items-center ">
+                {children}
+              </section>
+            </Suspense>
             <Footer />
           </div>
         </main>

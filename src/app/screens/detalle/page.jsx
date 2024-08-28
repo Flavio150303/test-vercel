@@ -136,7 +136,7 @@ export default function page() {
             <div className="flex justify-center items-center px-4 py-14">
               <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  min-[1440px]:gap-32 gap-8  ">
                 {productos.map((item, index) => (
-                  <CardProducto item={item} key={index.toString()} />
+                  <CardProducto item={item} in />
                 ))}
               </div>
             </div>
