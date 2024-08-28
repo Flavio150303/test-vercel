@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.text-underline {
+  position: relative;
+}
+
+.text-underline::after {
+  content: "";
+  display: block;
+  width: 33%; /* Adjust as needed */
+  height: 4px; /* Thickness of the line */
+  background-color: black; /* Color of the line */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@layer utilities {
+  .clip-half {
+    @apply relative;
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+  }
+  .clip-reverse {
+    @apply relative;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 50% 0);
+  }
+  .clip-reset {
+    @apply relative;
+    clip-path: none;
+  }
+}
